@@ -1,0 +1,5 @@
+h1, h2 {
+    background-image: url("am-colors.png");
+    background-repeat: repeat;
+    background-size: 100% 1.5em;
+}
