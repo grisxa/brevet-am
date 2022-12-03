@@ -5,7 +5,8 @@ body {
 h1, h2 {
     background-image: url("am-colors.png");
     background-repeat: repeat;
-    background-size: 100% 1.16em;
+    background-size: 100% 1.18em;
+    padding-left: 0.5em;
 }
 
 h1.header {
