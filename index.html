@@ -14,7 +14,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Randonneurs Armenia</h1>
+<div class="header">
+<h1 class="header">Randonneurs Armenia</h1>
+<div class="language-picker">
+    <form action="">
+        <label for="language-picker-select">Language</label>
+        <select name="language" id="language-picker-select">
+            <option lang="am" value="deutsch">Հայերեն</option>
+            <option lang="en" value="english" selected>English</option>
+            <option lang="ru" value="russian">Русский</option>
+        </select>
+    </form>
+</div>
+</div>
 <p>This is a non-profitable union of Armenian long-distance cyclists also known as randonneurs. Learn more about the <a
         href="https://en.wikipedia.org/wiki/Randonneuring">Randonneuring</a> and rules on the Wikipedia.</p>
 <p>Contacts: Grigory Batalov, <a href="mailto:grisxa@gmail.com">grisxa@gmail.com</a></p>
@@ -32,6 +44,7 @@
     <dd>Dilijan brevet, 200 km</dd>
 </dl>
 <h2>Routes</h2>
+<!-- plotaroute snippets go here -->
 <h3>Aragats brevet, 200 km</h3>
 <div style="overflow:hidden;position:relative;">
     <div style="position:relative;width:100%;padding-top:56.25%;overflow:visible;"></div>

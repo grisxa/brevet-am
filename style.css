@@ -1,5 +1,42 @@
+body {
+    font-family: sans-serif;
+}
+
 h1, h2 {
     background-image: url("am-colors.png");
     background-repeat: repeat;
-    background-size: 100% 1.5em;
+    background-size: 100% 1.16em;
+}
+
+h1.header {
+    flex-shrink: 1;
+    flex-grow: 8;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.language-picker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin-left: 0.5em;
+}
+
+.language-picker form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.language-picker select {
+    margin-left: 0.5em;
 }
