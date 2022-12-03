@@ -38,6 +38,10 @@ h1.header {
     flex-wrap: wrap;
 }
 
+.language-picker label {
+    padding: 0 0.3em;
+}
+
 .language-picker select {
-    margin-left: 0.5em;
+    width: 6em;
 }
