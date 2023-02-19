@@ -45,3 +45,9 @@ h1.header {
 .language-picker select {
     width: 6em;
 }
+
+.icon {
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+}
