@@ -20,7 +20,7 @@
 <div class="language-picker">
     <form action="">
         <label for="language-picker-select">Language</label>
-        <select name="language" id="language-picker-select" onChange="javascript:switchLanguage(this.selectedOptions[0].lang)">
+        <select name="language" id="language-picker-select" onChange="javascript:switchLanguage('index', this.selectedOptions[0].lang)">
             <option lang="am" value="armenian">Հայերեն</option>
             <option lang="en" value="english" selected>English</option>
             <option lang="ru" value="russian">Русский</option>
@@ -35,25 +35,28 @@
 <p>Contacts: Grigory Batalov, <a href="mailto:grisxa@gmail.com">grisxa@gmail.com</a></p>
 <h2>Calendar 2023</h2>
 <dl>
-    <dt>4/03/2023, 9:30</dt>
+    <dt>02/03/2023, 6:00</dt>
+    <dd>Armavir brevet, 200 km</dd>
+    <dt>16/03/2023, 9:30</dt>
     <dd>Aragats brevet, 200 km</dd>
-    <dt>25/03/2023, 6:00</dt>
+    <dt>30/03/2023, 7:00</dt>
     <dd>Ijevan brevet, 300 km</dd>
-    <dt>15/04/2023, 6:00</dt>
+    <dt>13/04/2023, 6:00</dt>
     <dd>Sevan brevet, 400 km</dd>
-    <dt>20/05/2023, 6:00</dt>
-    <dd>Around Armenia, 600 km</dd>
-    <dt>03/06/2023, 5:00</dt>
-    <dd>Sevan brevet, 600 km</dd>
-    <dt>15/07/2023, 7:00</dt>
+    <dt>28/09/2023, 7:00</dt>
     <dd>Dilijan brevet, 200 km</dd>
-    <dt>30/09/2023, 7:00</dt>
-    <dd>Dilijan brevet, 200 km</dd>
-    <dt>21/10/2023, 7:00</dt>
-    <dd>Akhalkalaki brevet, 200 km</dd>
+    <dt>12/10/2023, 7:00</dt>
+    <dd>Gandzani brevet, 200 km</dd>
 </dl>
 <h2>Routes</h2>
 <!-- plotaroute snippets go here -->
+<h3>Armavir brevet, 200 km</h3>
+<div style="overflow:hidden;position:relative;">
+    <div style="position:relative;width:100%;padding-top:56.25%;overflow:visible;"></div>
+    <iframe name="plotaroute_map_2527380" src="https://www.plotaroute.com/embedmap/2527380?units=km&hills=show"
+            style="position:absolute;top:0;left:0;bottom:0;right:0;width:100%; height:100%;" frameborder="0" scrolling="no" allowfullscreen
+            webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+</div>
 <h3>Aragats brevet, 200 km</h3>
 <div style="overflow:hidden;position:relative;">
     <div style="position:relative;width:100%;padding-top:56.25%;overflow:visible;"></div>
@@ -75,20 +78,6 @@
             style="position:absolute;top:0;left:0;bottom:0;right:0;width:100%; height:100%;" frameborder="0" scrolling="no" allowfullscreen
             webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 </div>
-<h3>Around Armenia, 600 km</h3>
-<div style="overflow:hidden;position:relative;">
-    <div style="position:relative;width:100%;padding-top:56.25%;overflow:visible;"></div>
-    <iframe name="plotaroute_map_2103388" src="https://www.plotaroute.com/embedmap/2103388?units=km&hills=show"
-            style="position:absolute;top:0;left:0;bottom:0;right:0;width:100%; height:100%;" frameborder="0" scrolling="no" allowfullscreen
-            webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-</div>
-<h3>Sevan brevet, 600 km</h3>
-<div style="overflow:hidden;position:relative;">
-    <div style="position:relative;width:100%;padding-top:56.25%;overflow:visible;"></div>
-    <iframe name="plotaroute_map_2104176" src="https://www.plotaroute.com/embedmap/2260719?units=km&hills=show"
-            style="position:absolute;top:0;left:0;bottom:0;right:0;width:100%; height:100%;" frameborder="0" scrolling="no" allowfullscreen
-            webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-</div>
 <h3>Dilijan brevet, 200 km</h3>
 <div style="overflow:hidden;position:relative;">
     <div style="position:relative;width:100%;padding-top:56.25%;overflow:visible;"></div>
@@ -96,10 +85,10 @@
             style="position:absolute;top:0;left:0;bottom:0;right:0;width:100%; height:100%;" frameborder="0" scrolling="no" allowfullscreen
             webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 </div>
-<h3>Akhalkalaki brevet, 200 km</h3>
+<h3>Gandzani brevet, 200 km</h3>
 <div style="overflow:hidden;position:relative;">
     <div style="position:relative;width:100%;padding-top:56.25%;overflow:visible;"></div>
-    <iframe name="plotaroute_map_2096787" src="https://www.plotaroute.com/embedmap/2404852?units=km&hills=show"
+    <iframe name="plotaroute_map_2527432" src="https://www.plotaroute.com/embedmap/2527432?units=km&hills=show"
             style="position:absolute;top:0;left:0;bottom:0;right:0;width:100%; height:100%;" frameborder="0" scrolling="no" allowfullscreen
             webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 </div>

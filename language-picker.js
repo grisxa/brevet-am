@@ -1,3 +1,3 @@
-function switchLanguage(code) {
-    window.location.assign('index-' + code + '.html')
+function switchLanguage(prefix, code) {
+    window.location.assign(prefix + '-' + code + '.html')
 }
